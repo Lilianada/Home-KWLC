@@ -311,7 +311,11 @@ span{
     display: flex;
     justify-content: space-between;
     color: var(--white-color);
-    margin: .75rem 1rem;
+    margin: .75rem;
+}
+
+.top_navbar  p{
+    font-size: 12px;
 }
 
 .top_right i{
@@ -581,7 +585,7 @@ hr{
 
 .main_container{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: minmax(100px, auto);
     max-width: 100vw;
     position: relative;
@@ -597,7 +601,7 @@ hr{
 
 
 .banner_content {
-    width: 70%;
+    width: 100%;
     height: 100vh;
     margin: 5rem auto;
     display: flex;
@@ -631,6 +635,7 @@ hr{
         font-size: var(--font-mini);
         line-height: 2.5rem;
         padding-top: 0;
+        width: 70%;
     }
 
     .italic_txt{
@@ -683,6 +688,10 @@ hr{
     font-family: 'Kumar One', cursive;
 }
 
+.timer{
+    color: var(--text-primary-color);
+}
+
 .time_stamp, .chosen_date{
     display: flex;
     width: 40%;
@@ -716,7 +725,7 @@ hr{
 
 /* service-area */
 
-section.service_area {
+.service_area {
     margin: 4rem 0 1rem;
 }
 
@@ -732,6 +741,10 @@ section.service_area {
     color: var(--white-color);
     font-size: var(--mfont-midi);
     left: 44px;
+}
+
+.service_area .service_posts{
+    margin: 0 1rem;
 }
 /*  */
 
@@ -815,7 +828,7 @@ section.service_area {
 .worship_head{
     position: absolute;
     top: 1.5625rem;
-    left: 9.6875rem;
+    left: 7.6875rem;
     color: var(--white-color);
     font-size: var(--mfont-mini);
 }
@@ -884,7 +897,7 @@ section.service_area {
 
 .donate_right {
     width: 100%;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .donate_right p {
@@ -925,8 +938,8 @@ section.service_area {
 .family_section_area.pr .shape-1 {
     position: absolute;
     width: 7.5rem;
-    top: 5.625rem;
-    right: 28%;
+    top: 10.625rem;
+    right: 38%;
     z-index: -1;
 }
 
