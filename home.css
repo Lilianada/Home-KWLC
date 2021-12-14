@@ -235,7 +235,6 @@ span{
 .container{
     display: flex;
     flex-direction: column;
-    background: var(--bg-secondary-color);
 }
 
 .row{
@@ -661,28 +660,6 @@ hr{
 }
 /* hero-banner-area-end */
 
-
-/* service-area */
-
-section.service_area {
-    margin-top: 3rem;
-}
-
-.service_col {
-    width: 20rem;
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.service_text{
-    position: absolute;
-    top: 4.375rem;
-    color: var(--white-color);
-    font-size: var(--mfont-midi);
-    left: 44px;
-}
-/*  */
-
 /* Timer Column */
 .timer_column{
     background: var(--bg-primary-color);
@@ -733,9 +710,32 @@ section.service_area {
 }
 
 
+/* service-area */
+
+section.service_area {
+    margin: 4rem 0 1rem;
+}
+
+.service_col {
+    width: 20rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.service_text{
+    position: absolute;
+    top: 4.375rem;
+    color: var(--white-color);
+    font-size: var(--mfont-midi);
+    left: 44px;
+}
+/*  */
+
+
+
 /* About  */
-.about-area {
-    margin-top: 3rem;
+.about_area {
+    margin: 2rem 0;
     position: relative;
 }
 
@@ -774,7 +774,7 @@ section.service_area {
     font-size: 1.7rem;
     margin: 0 auto;
     line-height: 41px;
-    color: #000000;
+    color: var(--text-primary-color);
 }
 
 .about-right h2 {
@@ -797,7 +797,7 @@ section.service_area {
 }
 
 .worship_col{
-    height: 270px;
+    height: auto;
     border-radius: 20px;
     width: 350px;
     box-shadow: 1px 4px 10px rgb(0 0 0 / 25%);
@@ -934,7 +934,7 @@ section.service_area {
 }
 
 .service_posts {
-    margin-bottom: 4.68rem;
+    /* margin-bottom: 4.68rem; */
     padding: 0 1rem;
 }
 
