@@ -506,6 +506,10 @@ hr{
         margin-bottom: 1.5rem;
         color: var(--white-color);
     }
+
+    .nav_item .nav_logo{
+        display: block;
+    }
 }
 
 @media screen and (min-width: 900px) {
