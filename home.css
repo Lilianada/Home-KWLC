@@ -933,8 +933,8 @@ section.service_area {
     z-index: -1;
 }
 
-.service_posts {
-    /* margin-bottom: 4.68rem; */
+.family_section_area .service_posts {
+    margin-bottom: 4.68rem;
     padding: 0 1rem;
 }
 
