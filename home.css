@@ -312,11 +312,11 @@ span{
     display: flex;
     justify-content: space-between;
     color: var(--white-color);
-    margin: .75rem 1.5rem;
+    margin: .75rem 1rem;
 }
 
 .top_right i{
-    padding: .5rem;
+    padding: .3rem;
 }
 
 hr{
